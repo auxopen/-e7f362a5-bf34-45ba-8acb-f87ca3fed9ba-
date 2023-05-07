@@ -1,3 +1,4 @@
+warn("KILL NI")
 local ScreenGui = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local exec = Instance.new("TextButton")
@@ -14,7 +15,7 @@ local Tokens_ = Instance.new("TextLabel")
 local Numbers_ = Instance.new("TextLabel")
 ScreenGui.ResetOnSpawn = false
 
-ScreenGui.Parent = game:GetService("CoreGui")
+ScreenGui.Parent = gethui()
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 spawn(function() 
